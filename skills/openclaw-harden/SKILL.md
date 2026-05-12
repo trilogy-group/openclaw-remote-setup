@@ -1,11 +1,6 @@
 ---
 name: openclaw-harden
-description: Harden a fresh Ubuntu 24.04 box for production OpenClaw use. UFW rate-limit, sshd hardeni
-ng (modern KexAlgorithms/Ciphers/MACs, AllowUsers, MaxAuthTries), fail2ban with a local jail, unattend
-ed-upgrades with auto-reboot, sysctl kernel tuning, optional TOTP MFA on SSH, systemd lingering for th
-e target user, plus a structured credential blast-radius conversation (dedicated bot Gmail, dedicated 
-social handles, spend caps, never-on-this-box list). Tracked in beads. Skill 2 of 3. Requires /opencla
-w-prereqs to have run first.
+description: Harden a fresh Ubuntu 24.04 box for production OpenClaw use. UFW rate-limit, sshd hardening (modern KexAlgorithms/Ciphers/MACs, AllowUsers, MaxAuthTries), fail2ban with a local jail, unattended-upgrades with auto-reboot, sysctl kernel tuning, optional TOTP MFA on SSH, systemd lingering for the target user, plus a structured credential blast-radius conversation (dedicated bot Gmail, dedicated social handles, spend caps, never-on-this-box list). Tracked in beads. Skill 2 of 3. Requires /openclaw-prereqs to have run first.
 disable-model-invocation: true
 ---
 

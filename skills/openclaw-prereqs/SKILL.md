@@ -1,8 +1,6 @@
 ---
 name: openclaw-prereqs
-description: Install bootstrap prerequisites (Node 24, beads, jq) on a fresh Ubuntu 24.04 box and init
-ialize the shared beads task graph that openclaw-harden and openclaw-install will track their work in.
- Idempotent. Run this first on any new box. Skill 1 of 3.
+description: Install bootstrap prerequisites (Node 24, beads, jq) on a fresh Ubuntu 24.04 box and initialize the shared beads task graph that openclaw-harden and openclaw-install will track their work in. Idempotent. Run this first on any new box. Skill 1 of 3.
 disable-model-invocation: true
 ---
 

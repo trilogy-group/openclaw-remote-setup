@@ -1,10 +1,6 @@
 ---
 name: openclaw-install
-description: Install OpenClaw on a hardened Ubuntu 24.04 box. Installs Claude Code + cc-openclaw skill
-s, OpenClaw gateway as a systemd user service, secrets via ${ENV_VAR} placeholders, Telegram bot (with
- privacy-mode gotcha), Xvfb + Chrome headless browser stack, runtime beads at .openclaw/workspace/.bea
-ds, optional GNU Stow dotfiles, SSH tunnel instructions, first cron job, and a final audit. Tracked in
- beads. Skill 3 of 3. Requires /openclaw-harden to have run first.
+description: Install OpenClaw on a hardened Ubuntu 24.04 box. Installs Claude Code + cc-openclaw skills, OpenClaw gateway as a systemd user service, secrets via ${ENV_VAR} placeholders, Telegram bot (with privacy-mode gotcha), Xvfb + Chrome headless browser stack, runtime beads at .openclaw/workspace/.beads, optional GNU Stow dotfiles, SSH tunnel instructions, first cron job, and a final audit. Tracked in beads. Skill 3 of 3. Requires /openclaw-harden to have run first.
 disable-model-invocation: true
 ---
 
